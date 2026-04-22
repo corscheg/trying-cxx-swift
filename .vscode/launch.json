@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:trying-cxx-swift}",
+            "name": "Debug trying-cxx-swift",
+            "target": "trying-cxx-swift",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug trying-cxx-swift"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:trying-cxx-swift}",
+            "name": "Release trying-cxx-swift",
+            "target": "trying-cxx-swift",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release trying-cxx-swift"
+        }
+    ]
+}
